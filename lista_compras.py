@@ -22,7 +22,7 @@ def excluir():
 def modificar():
     compras = ["Arroz", "Molho de tomate", "Biocarbonato de Sódio", "Doritos", "Oleo"]
     compras[2] = "Agua"
-    compras.index("Biocarbonato de Sódio")
+    print(compras)
 
 
 while True:
@@ -48,7 +48,7 @@ while True:
         modificar()
     
     elif opcao == "0":
-        print("Saindo do programa")
+        print("Saindo do programa... ")
         break
 
     else:
